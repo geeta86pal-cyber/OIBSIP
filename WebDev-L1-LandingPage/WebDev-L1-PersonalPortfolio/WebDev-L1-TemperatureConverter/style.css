@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:Arial,sans-serif;
+    background:#eaf4ff;
+}
+
+.container{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    text-align:center;
+    width:350px;
+}
+
+input,
+select,
+button{
+    width:100%;
+    padding:10px;
+    margin-top:15px;
+}
+
+button{
+    background:#0a66c2;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+#result{
+    margin-top:20px;
+    font-weight:bold;
+}
